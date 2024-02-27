@@ -6,7 +6,7 @@ import UserModel from '../../models/users.js';
 
 describe('Users Controller', function() {
   describe('loginUser', function() {
-    it('should return user data if login is successful', async function() {
+    it('Devrait retourner tous les utilisateurs, si ils sont connectés', async function() {
       const username = 'testuser';
       const password = 'testpassword';
       const user = { username: username, password: password /* add other fields as needed */ };

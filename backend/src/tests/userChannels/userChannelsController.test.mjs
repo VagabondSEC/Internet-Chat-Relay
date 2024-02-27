@@ -6,7 +6,7 @@ import UserChannelModel from '../../models/user_channels.js';
 
 describe('Users Channels Controller', function() {
   describe('getAllUserChannels', function() {
-    it('should return all user channels', async function() {
+    it('Devrait retourner tous les users du channel', async function() {
       const userChannels = [{ /* sample user channel data */ }];
       sinon.stub(UserChannelModel, 'find').resolves(userChannels);
       const req = {};
