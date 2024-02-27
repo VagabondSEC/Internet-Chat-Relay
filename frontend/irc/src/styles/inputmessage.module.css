@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    width: 100%;
+    height: 100%;
+    background-color: #282c34;
+}
+
+.message_input{
+    width: 90%;
+    height: 60%;
+    margin-left: 15px;
+    padding-left: 15px;
+    background-color: #30333a;
+    border-radius: 10px;
+    border: none;
+    outline: 0;
+}
+
+.command::after{
+    background-color: red;
+    width: 10px;
+}
+
+.command{
+    border: 2px solid #1E90FF;
+    font-weight: bold;
+}
+
+
+.submit_input{
+    width: 5vw;
+    height: 60%;
+    margin-right: 15px;
+    border: none;
+    outline: none;
+    background-color: #1E90FF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.submit_input:hover{
+    background-color: #47a3ff;
+    font-size: 16px;
+    cursor: pointer;
+}
