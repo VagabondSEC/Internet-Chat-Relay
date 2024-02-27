@@ -28,7 +28,7 @@ describe('Users Controller', function() {
       sinon.restore();
     });
 
-    it('should return "User not found" message if user does not exist', async function() {
+    it("Devrait retourné que l'utilisateur n'existe pas", async function() {
       const username = 'nonexistentuser';
       const password = 'nonexistentpassword';
       sinon.stub(UserModel, 'findOne').resolves(null);

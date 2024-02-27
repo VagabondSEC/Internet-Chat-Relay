@@ -6,7 +6,7 @@ import MessageModel from '../../models/messages.js';
 
 describe('Messages Controller', function() {
   describe('getAllMessages', function() {
-    it('should return all messages', async function() {
+    it('Devrait retourner tous les messages', async function() {
       const mockMessages = [{ /* sample message data */ }];
       const findStub = sinon.stub(MessageModel, 'find').resolves(mockMessages);
       const res = {
