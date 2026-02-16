@@ -85,5 +85,5 @@ nodemon index.js
 
 **- Saïd SOUIDI** <br>
 - [Github](https://github.com/VagabondSEC)
-- [Linkedin](https://www.linkedin.com/in/saïd-souidi-560253240/)<br>
+- [Linkedin](https://www.linkedin.com/in/sa%C3%AFd-s/)<br>
 
